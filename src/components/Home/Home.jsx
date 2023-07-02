@@ -16,7 +16,7 @@ const Home = (props) => {
       <br></br>
       <br></br>
 
-      <h2>{props.name ? `Welcome - ${props.name}` : `Login Please`}</h2>
+      <h2>{props.name ? `Welcome Mr./Mrs.- ${props.name}` : `Login Please`}</h2>
     </div>
   );
 };
